@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ipad>header>ul>li>a{
+    text-decoration: none;
+    color: black; 
+    font-size: 1.1rem;
+}
+.ipad>header>ul{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 22px;
+    gap: 40px;
+    justify-content: center;
+}
+.ipad>header>span{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.ipad{
+    background-color: #e8e8e8;
+    padding: 6px;
+    top: 0;
+    
+    width: 100%;
+    z-index: 1000;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+    margin-bottom: 100px;
+    background-color: #e8e8e8;
+}
+.flex>div{
+    
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.flex>div>span{
+    color: #bf4800;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.if>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 785px;
+}
+.if{
+    margin-top: 80px;
+}
+.if>div>#m{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 64px;
+    font-weight: 550;
+    margin-left: 60px
+}
+.if>div>#b{
+    font-size: 24px;
+
+    width: 80%;
+    font-weight: 600;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.larg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 65px;
+    object-fit: cover;
+    
+}
+.larg>div{
+    width: 1340px;
+    height: 690px;
+   
+}
+.larg>div>video{
+    border-radius: 4%;    
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+}
+.get>div>h1{
+    margin-top: 120px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 80px;
+}
+.get>.jpg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.get>.jpg>div>img{
+    width: 100%;
+    border-radius: 5.6%;
+}
+.get>.jpg > div {
+    position: relative; 
+}
+.get>.jpg>.jpg1>#bir{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.get>.jpg>.jpg1>#iki{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    width: 61%;
+}
+.get>.jpg>.jpg1>#yes{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    width: 81%;
+}
+.get>.jpg>.jpg1>#sif1{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    width: 60%;
+}
+.get>.jpg>.jpg1>#sif{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    font-weight:700;
+    color: white;
+}
+.get>.jpg>.jpg1>#sif3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.get>.jpg>.jpg1>#sif2{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    width: 70%;
+}
+.e6>div{
+    display: flex;
+    margin-top: 80px;
+    background-color: #f5f5f7;
+    justify-content: center;
+    padding: 110px;
+}
+.e6>div>img{
+    object-fit: cover;
+}
+.key>div{
+    display: flex;
+    background-color: #f5f5f7;
+    justify-content: center;
+    padding: 20px;
+}
+.key>div>img{
+    object-fit: cover;
+}
+.key>.tex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 6px;
+}
+.key>.tex>p{
+    font-size: 15px;
+    color: #bf4800;
+}
+.key>.tex>span{
+    color: #6B696E;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.computer>div{
+        display: flex;
+        gap: 25px;
+        margin-top: 80px;
+        background-color: #f5f5f7;
+        justify-content: center;
+        text-align: center;
+        padding: 110px;
+    
+}
+.computer>div>img{
+    border-radius: 4%;
+  
+}
+.computer>div>p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    color: #6B696E;
+}
+.exp{
+    margin-top: 105px;
+    background-color: #fafafa;
+    height: 730px;
+   
+}
+.exp>.exp2{
+    padding-top: 100px;
+}
+.exp>.exp2>#stud>h1{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    margin-left: 65px;
+   margin-bottom: 80px;
+
+}
+.exp>.exp2>.div>#stud2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 65px;
+}
+.exp>.exp2>.div>#stud2>p{
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+    font-size: 12px;
+}
+.exp>.exp2>.div>#stud2>span{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+}
+.exp>.exp2>.div>#stud2>#par{
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 450;
+    margin-top: 15px;
+}
+.exp>.exp2>.div>.support>p{
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+    font-size: 12px;
+}
+.exp>.exp2>.div>.support>span{
+font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+}
+.exp>.exp2>.div>.support{
+    margin-left: 105px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.exp>.exp2>.div{
+    display: flex;
+}
+.foot>footer>.text{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.foot>footer>.text>p{
+    width: 69%;
+    font-size: 0.9rem;
+    color: gray;
+    margin: 0 auto; 
+    display: flex;
+}
+.foot{
+    background-color: rgb(245, 245, 247);
+    padding: 10px;
+    margin-top: 10px;
+}
+.foot>footer>.hatt{
+   margin: 0 auto;
+    width: 1020px;
+    height: 3px;
+    margin-top: 30px;
+    background-color: gray;
+}

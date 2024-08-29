@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ipad>header>ul>li>a{
+    text-decoration: none;
+    color: black; 
+    font-size: 1.1rem;
+    
+}
+.ipad>header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ipad>header>ul{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 22px;
+    gap: 40px;
+    justify-content: center;
+}
+.ipad>header>span{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.ipad{
+    background-color: #e8e8e8;
+    padding: 6px;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 4px;
+    background-color: #000000;
+    padding: 10px;
+}
+.flex>#wit>p{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.flex>div>p{
+    color: white;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.flex>div{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.smart>div{
+    display: flex;
+    justify-content: center;
+}
+.smart>div>img{
+    padding-bottom: 40px;
+    width: 100%;
+    object-fit: cover;
+}
+.sm>div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+}
+.sm>div>img{
+    padding-bottom: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+.sm>div>h1{
+    position: absolute;
+    bottom: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+}
+.app>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.app>div>img{
+    width: 70%;
+}
+.app>div>span{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 130px;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+.apli>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f5fde8;
+    padding: 10px;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.apli>div>span{
+    font-size: 40px;
+    font-weight: 540;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 30px;
+    width: 55%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+.apli>div>img{
+    width: 100%;
+    
+}
+.water>.swim{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f0fbff;
+    padding: 10px;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.water>.swim>.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.water>.swim>.text>p{
+ color: blue;
+ font-size: 24px;
+ font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+ font-weight: 400;
+}
+.water>.swim>.text>span{
+    font-size: 44px;
+    font-weight: 600;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 55%;
+    
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+.water>.swim>img{
+    width: 100%;
+}
+.dis>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.dis>div>img{
+    object-fit: cover;
+}
+.foot>footer>.text{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.foot>footer>.text>p{
+    width: 69%;
+    font-size: 0.9rem;
+    color: gray;
+    margin: 0 auto; 
+    display: flex;
+}
+.foot{
+    background-color: rgb(245, 245, 247);
+    padding: 10px;
+}
+.foot>footer>.hatt{
+   margin: 0 auto;
+    width: 1020px;
+    height: 3px;
+    margin-top: 20px;
+    background-color: gray;
+}

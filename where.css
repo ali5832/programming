@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ipad>header>ul>li>a{
+    text-decoration: none;
+    color: black; 
+    font-size: 1.1rem;
+    
+}
+.ipad>header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ipad>header>ul{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 22px;
+    gap: 40px;
+    justify-content: center;
+}
+.ipad>header>span{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.ipad{
+    background-color: #e8e8e8;
+    padding: 6px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.m2>div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+.m2>div>div{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 75px;
+}
+.m2>div>div>p{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    width: 61%;
+}
+.macbook>div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+.macbook>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 50px;
+    gap: 24px;
+}
+.macbook>div>div>img{
+    width: 80%;
+}
+.macbook>div>div>span>p{
+    color: white;
+}
+.macbook>div>div>span{
+    color: black;
+    width: 40%;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #A1A1A6;
+    margin-right: 380px;
+}
+.macbook>div>div>p{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 55%;
+    color: #A1A1A6;
+    margin-right: 170px;
+}

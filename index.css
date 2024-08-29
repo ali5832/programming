@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ipad>header>ul>li>a{
+    text-decoration: none;
+    color: black; 
+    font-size: 1.1rem;
+    
+}
+.ipad>header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ipad>header>ul{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 22px;
+    gap: 40px;
+    justify-content: center;
+}
+.ipad>header>span{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.ipad{
+    background-color: #e8e8e8;
+    padding: 6px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.flex>div{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.pro{
+    position: relative;
+    margin-top: 35px;
+    width: 100%;
+    height: 100%;
+}
+.pro>img{
+
+    height: 100%;
+    width: 100%;
+}
+.pro>a{
+    position: absolute;
+    top: 37%;
+    text-decoration: none;
+    left: 50%;
+    font-size: 1.8rem;
+    transform: translate(-50%, -50%);
+    color: blue; 
+}
+.max>img{
+    height: 100%;
+    width: 100%;
+}
+.lov>img{
+    margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.which>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.which{
+    display: grid;
+    justify-content:center;
+    text-align: center;
+}
+.which>h1{
+    display: flex;
+    margin-bottom: 35px;
+    justify-content: center;
+    font-size: 2.2rem;
+}
+.which>div>div>img{
+    width: 65%;
+    height:65%;
+    display: flex;
+    justify-content: center;
+}
+.which>div>div>span{
+    display: flex;
+   margin-left: 23px;
+   font-weight: 800;
+   font-size: 1.4rem;
+   margin-bottom: 10px;
+}
+.wihch>div>div{
+    display: flex;
+    flex-direction: column;
+}
+.which>div>div>p{
+    display: flex;
+   margin-left: 20px;
+}
+.which>div>div>#foto{
+    width: 60%;
+    margin-top: 55px;
+}
+.which>div>div>#foto2{
+    margin-top: 33px;
+}
+.which>div>div>a{
+    display: flex;
+    margin-left: 23px;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-top: 20px;
+    align-items: center;
+    color: blue;
+}
+.which>div>div>#st{
+    margin-bottom: 54px;
+}
+.which>div>div>#sst{
+    margin-bottom: 18px;
+}
+.models{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.models>img{
+    width: 70%;
+}
+.foot>footer>.text{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.foot>footer>.text>p{
+    width: 69%;
+    font-size: 0.9rem;
+    color: gray;
+    margin: 0 auto; 
+    display: flex;
+}
+.foot{
+    background-color: rgb(245, 245, 247);
+    padding: 10px;
+}
+.foot>footer>.hatt{
+   margin: 0 auto;
+    width: 1020px;
+    height: 3px;
+    margin-top: 20px;
+    background-color: gray;
+}
+

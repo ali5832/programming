@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.ipad>header>ul>li>a{
+    text-decoration: none;
+    color: black; 
+    font-size: 1.1rem;
+    
+}
+.ipad>header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ipad>header>ul{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 22px;
+    gap: 40px;
+    justify-content: center;
+}
+.ipad>header>span{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.ipad{
+    background-color: #e8e8e8;
+    padding: 6px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 110px;
+}
+.flex>div{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.flex>div>img{
+    width: 55%;
+}
+.flex>#tvv4{
+    margin-top: 6px;
+}
+.flex>#tvv3{
+    margin-top: 17px;
+}
+.flex>#tvv1{
+    margin-top: 18px;
+}
+.blut>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #f5f5f7;
+    padding: 55px;
+}
+.blut>div>span{
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 50px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.blut>div>img{
+    width: 50%;
+}
+.blut>div>p{
+    display: flex;
+    text-align: center;
+    width: 65%;
+    color: #86868b;
+    font-size: 21px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 550;
+}
+.pad>div{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+.pad{
+    position: relative;
+}
+.pad>.pad2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pad>.pad2>span{
+    background-color: black;
+    color: white;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.pad>.pad2>p{
+    background-color: black;
+    color: white;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+.pad>.pad2>#dolar{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 21px;
+}
+.lig{
+    margin-top: 65px;
+    background-color: #f5f5f7;
+}
+.lig>#ligh1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.lig>#ligh1>h1{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    width: 70%;
+}
+.lig>.jpg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.lig>.jpg>div{
+    position: relative;
+  
+}
+.lig>.jpg>div>span{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.lig>.jpg>div>img{
+    width: 80%;
+}
+.arca{
+    margin-top: 50px;
+}
+.arca>div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.arca>div>h1{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 650;
+    width: 62%;
+}
+.arca>.arcade{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.arca>.arcade>video{
+    width: 60%;
+}
+.fast>div{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f7;
+    padding: 50px;
+    align-items: center;
+}
+.music>div{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 35px;
+}
+.music>div>img{
+    width: 100%;
+    border-radius: 10px;
+}
+.screen>div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.screen>div>img{
+    width: 90%;
+}
+.foot>footer>.text{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.foot>footer>.text>p{
+    width: 69%;
+    font-size: 0.9rem;
+    color: gray;
+    margin: 0 auto; 
+    display: flex;
+}
+.foot{
+    background-color: rgb(245, 245, 247);
+    padding: 10px;
+}
+.foot>footer>.hatt{
+   margin: 0 auto;
+    width: 1020px;
+    height: 3px;
+    margin-top: 20px;
+    background-color: gray;
+}
+    
